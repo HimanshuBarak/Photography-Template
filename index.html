@@ -1,0 +1,265 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>The Secret Seasons</title>
+   
+  <style>
+
+      header{
+          background-image: url(img/bug2.jpg);
+          background-size:cover;
+          min-height:1000px;
+          background-position:center;
+          width:100%;
+      }
+     @media screen and (max-width:670px){
+         header{
+             min-height: 500px;
+         }
+     }
+     .section{
+         padding-top:4vw;
+         padding-bottom:4vw;
+     }
+     .tabs .indicator{
+         background-color: #1a237e;
+     }
+     .tabs .tab a:focus, .tabs .tab a:focus.active{
+         background:transparent;
+     }
+     .myimg{
+         width:400px;
+         height:250px;
+         object-fit:contain;
+     }
+  </style>
+
+</head>
+<body>
+
+  <!-- navbar -->
+   <header>
+    
+   
+       
+        <nav class="nav-wrapper transparent ">
+      
+            <div class="container">
+               
+             <a href="#" class="brand-logo grey-text-lighten-1">The Secret Seasons </a>
+             <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+             <ul class="right hide-on-med-and-down">
+                 <li><a href="#photos">Photos</a>
+                 <li><a href="#services">About</a>  
+                 <li><a href="#contact">Contact</a>
+                 <li><a href="https://www.instagram.com/the_secret_seasons/" class="tooltipped btn-floating btn-small transparent " data-tooltip="Instagram">
+                    <i class="fab fa-instagram"></i> 
+                 </a></li>
+                 <li><a href="https://www.facebook.com/garima.rout.3" class="tooltipped btn-floating btn-small transparent" data-tooltip="Facebook">
+                    <i class="fab fa-facebook"></i> 
+                 </a></li>
+                 <li><a href="#" class="tooltipped btn-floating btn-small transparent" data-tooltip="Not on Twitter yet">
+                    <i class="fab fa-twitter"></i> 
+                 </a></li>
+                     
+             </ul>
+                <ul class="sidenav  lighten-2" id="mobile-menu">
+                    <li><a href="#">Photos</a>
+                    <li><a href="#">About</a>  
+                    <li><a href="#">Contact</a>
+                </ul>
+            </div>
+        </nav>
+
+  
+
+   </header>
+  <!-- photo / grid -->
+
+  <section class="container section scrollspy" id="photos">
+      
+        <h2 class="indigo-text text-darken-4 offset-l1">My Clicks</h2>
+      
+     <div class="row">
+         <div class="col s12 l4">
+             <img src="img/pic1.jpg" alt="" class="responsive-img materialboxed">
+         </div>
+         <div class="col s12 l4">
+            <img src="img/pic2.jpg" alt="" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 l4">
+            <img src="img/pic9.jpg" alt="" class="responsive-img materialboxed">
+        </div>
+       
+        
+     </div>
+     <div class="row">
+        <div class="col s12 l4 ">
+            <img src="img/pic4.jpg" alt="" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 l4">
+            <img src="img/pic6.jpg" alt="" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 l4">
+            <img src="img/pic8.jpg" alt="" class="responsive-img materialboxed">
+        </div>
+        
+        
+    </div>
+    <div class="row">
+        <div class="col s12 l4">
+            <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
+        </div>
+       
+    </div>
+  </section>
+  <!-- parallax -->
+
+  <div class="parallax-container">
+      <div class="parallax">
+          <img src="img/pic5.jpg" alt="">
+      </div>
+  </div>
+  <!-- services / tabs -->
+<section class="container section scrollspy" id="services">
+    <div class="row">
+        <div class="col s12 l4">
+        <h2 class="indigo-text darken-4">What I do</h2>
+        <p>I am  a college student and I am currently pursuing my CSE degree from Vit Chennai.
+       But whenever I am not busy in completing assignments or watching a new anime. I mainly engage in these 
+           2 activities.
+        </p>
+        
+        </div>  
+       <div class="col s12 l6 offset-l2">
+          <ul class="tabs">
+              <li class="tab col s6 ">
+                  <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+              </li>
+              <li class="tab col s6 ">
+                <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+            </li>
+          </ul>
+          <div class="col s12" id="photography">
+              <p class="flow-text indigo-text text-darken-4" >PHOTOGRAPHY</p>
+              <p>I have developed a interest in gardening over the last few months and with that I have realized how beautiful nature is. 
+                  In my photography I try my best to capture nature's beauty. </p>
+            </div>
+            <div class="col s12" id="editing">
+                <p class="flow-text indigo-text text-darken-4" >POEMS</p>
+                <p>I had started writing as early as when I was 15 but for the last 2 years or so I wasn't writing regularly. But since 
+                   the last 2 months  I have been again writing consistently and I hope to keep it that way.
+                </p>
+              </div>
+       </div>
+    </div>
+    
+</section>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+        <img src="img/para.jpg" alt="">
+    </div>
+</div>
+  <!-- contact form -->
+<section class="section container scrollspy" id="contact">
+      <div class="row">
+
+        <div class="col s12 l5">
+            <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+            <p> If you want to work with me or just want to give feedback.
+                I would love to hear from you. Drop your email or feel free to leave me a message.
+            
+           
+        </div>
+        <div class="col s12 l5 offset-l2">
+            <form action="">
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email">
+                <label for="email">Your email</label>
+              </div>
+              <div class="input-field">
+              <i class="material-icons prefix">message</i>
+             <textarea  id="message" class="materialize-textarea"></textarea>
+              <label for="message">Your message</label>
+              </div>
+              <div class="input-field">
+                  <input type="text" id="date" class="datepicker">
+                  <label for="date">Choose a date you need me for...</label>
+              </div>
+              <div class="input-field">
+                  <p>Services required...</p>
+                  <p>
+                      <label >
+                       <input type="checkbox">   
+                       <span>Photography</span>
+                      </label>
+                  </p>
+                  <p>
+                    <label >
+                        <input type="checkbox">    
+                     <span>Poems</span>
+                    </label>
+                </p>
+              </div>
+              <div class="input-field center">
+                  <button class="btn ">Submit</button>
+              </div>
+            </form>
+        </div>
+      </div>
+
+</section>
+  <!-- footer -->
+<footer class="page-footer grey darken-3">
+  <div class="container">
+    <div class="row">
+        
+        <div class="col s12 l4 ">
+            <h4>About Me</h4>
+            <p>I am super talented human being who is also verrry good at singing .So if you wanna know more about me than find me on my social media.</p>
+        </div>
+        <div class="col s12 l4 offset-l3 ">
+            <h4>Contact </h4>
+           <ul>
+               <li><a href="https://www.facebook.com/garima.rout.3" class="grey-text text-lighten-3">Facebook</a></li>
+               <li><a href="https://www.instagram.com/the_secret_seasons/" class="grey-text text-lighten-3">Instagram</a></li>
+               <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+           </ul> 
+            
+        </div>
+    </div>
+
+  </div>
+ <div class="footer-copyright grey darken-4">
+     <div class="container center-align">&copy;2020 The Secret Seasons</div>
+ </div>
+</footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax();
+        $('.tabs').tabs();
+        $('.datepicker').datepicker({
+            /* disableWeekends:true  */ //will disable choosing weekends
+        });
+        $('.tooltipped').tooltip();
+        $('.scrollspy').scrollSpy();
+    });
+   
+  </script>
+</body>
+</html>
