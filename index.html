@@ -45,6 +45,7 @@
          height:250px;
          object-fit:contain;
      }
+
      .responsive-img{
         
          margin-bottom:8px;
@@ -60,18 +61,21 @@
    <header>
     
    
-       
+        <!--CREATES A NAV BAR WHICH IS TRANSPARENT-->
         <nav class="nav-wrapper transparent ">
       
             <div class="container">
-               
+               <!--THE LOGO COLOR IS LIGHT GREY-->
              <a href="#" class="brand-logo grey-text-lighten-1">The Secret Seasons </a>
+             <!--SIDENAV-TRIGGER IS FOR TRIGGERING THE SIDE MENU-->
              <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
              <ul class="right hide-on-med-and-down">
                  <li><a href="#photos">Photos</a>
                  <li><a href="#services">About</a>  
                  <li><a href="#contact">Contact</a>
+                    <!--TOOLTIPPED BASICALLY ADDS A COMMENT WHICH CAN BE SEEN WHEN U HOVER OVER ,ROUND CIRCULAR SMALL TRANSPARENT BUTTON-->
                  <li><a href="https://www.instagram.com/the_secret_seasons/" class="tooltipped btn-floating btn-small transparent " data-tooltip="Instagram">
+                    <!--USING FONTASWESON-->
                     <i class="fab fa-instagram"></i> 
                  </a></li>
                  <li><a href="https://www.facebook.com/garima.rout.3" class="tooltipped btn-floating btn-small transparent" data-tooltip="Facebook">
@@ -95,15 +99,18 @@
    </header>
   <!-- photo / grid -->
 
+   <!--the whole is screen in divided into 12 ccolumns ,scroolspy makes the scrolling smotther-->
   <section class="container section scrollspy" id="photos">
       
         <h2 class="indigo-text text-darken-4 offset-l1">My Clicks</h2>
       
      <div class="row">
+         <!--s12=>take all 12 columns on small screen and l4=>take 4 columns on large screen-->
          <div class="col s12 l4">
              <img src="img/pic1.jpg" alt="" class="responsive-img materialboxed">
          </div>
          <div class="col s12 l4">
+             <!--materialboxed makes the image pop up in a window-->
             <img src="img/pic2.jpg" alt="" class="responsive-img materialboxed">
         </div>
         <div class="col s12 l4">
@@ -132,7 +139,7 @@
        
     </div>
   </section>
-  <!-- parallax -->
+  <!-- parallax is responsible for the image moving in different direction in the background -->
 
   <div class="parallax-container">
       <div class="parallax">
